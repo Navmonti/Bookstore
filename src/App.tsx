@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { ListItems } from './components/list/listItems';
+import BookStore from './data/booklist'
+const App: React.FC = () => {
+  const _AddHandler = (): any => {
 
-function App() {
+  }
+
+  const _EditHandler = (): any => {
+
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>My Book Store</h1>
+      <button  color="success" onClick={_AddHandler()}>Add</button>
+      <button  color="warning" onClick={_EditHandler()}>Edit</button>
+      <ListItems items={BookStore} />
     </div>
   );
 }
