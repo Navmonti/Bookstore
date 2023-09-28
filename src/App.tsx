@@ -3,18 +3,25 @@ import { ListItems } from './components/list/listItems';
 import BookStore from './data/booklist'
 const App: React.FC = () => {
   const _AddHandler = (): any => {
-
+    alert("Add Button presses")
   }
 
   const _EditHandler = (): any => {
-
+    alert("Edit Button presses")
   }
+
   return (
     <div className="App">
-      <h1>My Book Store</h1>
-      <button  color="success" onClick={_AddHandler()}>Add</button>
-      <button  color="warning" onClick={_EditHandler()}>Edit</button>
-      <ListItems items={BookStore} />
+      <div className='header'>
+        <h1>Navmonti BookStore</h1>
+      </div>
+      <div className='content'>
+        <div className='btn-bar'>
+          <button className='btn-success btn' onClick={() => _AddHandler()}>Add</button>
+          <button className='btn-warning btn' onClick={() => _EditHandler()}>Edit</button>
+        </div>
+        <ListItems items={BookStore} />
+      </div> 
     </div>
   );
 }

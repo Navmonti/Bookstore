@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 5px;
+    border: 1px solid #000;
+    color : #333;
+  }
+
+  th {
+    background-color: #ffa28e; /* Header color */
+    color: #585858;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row color */
+  }
+
+  tr:nth-child(odd) {
+    background-color: #dddddd; /* Alternate row color */
+  }
+
+
+.btn-error {
+    background-color: rgb(254, 144, 144);
+    padding: 5px 10px;
+    border: none;
+}
