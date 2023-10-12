@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { useAppDispatch, useAppSelector } from '../../redux/store/hooks';
 import { closeModal } from '../../redux/slices/ModalSlice';
-import { stringify } from 'querystring';
 import { IBook } from '../../interfaces/IBook';
 import { addBook } from '../../redux/slices/BookSlice';
  
 
-const AddItem: React.FC<IBook> = ({ }) => {
+const AddItem: React.FC<any> = ({ }) => {
   const state = useAppSelector(state => state.book.books)
   const dispatch = useAppDispatch();
 
