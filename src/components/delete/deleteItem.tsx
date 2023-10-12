@@ -2,15 +2,16 @@ import React from 'react';
 import { IBook } from '../../interfaces/IBook';
 import { useAppDispatch } from '../../redux/store/hooks';
 import { closeModal } from '../../redux/slices/ModalSlice';
+import { deleteBook } from '../../redux/slices/BookSlice';
 
 const DeleteItem: React.FC<{ book: IBook }> = ({ book }) => {
     const dispatch = useAppDispatch();
-    const handleCancel = () => {
-        dispatch(closeModal())
-    }
-
+    
+    const handleCancel = () =>  dispatch(closeModal()) 
+    
     const handleDeleteItem = () => {
-
+        dispatch(deleteBook(book.id))
+        dispatch(closeModal())
     };
 
     return <form>

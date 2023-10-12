@@ -11,19 +11,16 @@ td {
 }
 
 th {
-  background-color: #ffa28e;
-  /* Header color */
-  color: #585858;
+  background-color: #4c4c4c;
+    color: #ffffff;
 }
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
-  /* Alternate row color */
 }
 
 tr:nth-child(odd) {
   background-color: #dddddd;
-  /* Alternate row color */
 }
 
 
@@ -49,7 +46,8 @@ tr:nth-child(odd) {
     background-color: rgb(132, 132, 132);
 }
 
-.btn-table {
+.btn-table {border-radius: 5px;
+  padding : 5px 10px;
   border : none;
   margin : auto 5px;
 }

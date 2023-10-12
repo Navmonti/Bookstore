@@ -5,13 +5,13 @@ import BookStore from './../../data/booklist'
 
 const initialState: IBookState = {
     books: [],
-    selectedBook : {
+    selectedBook: {
         id: 0,
-        category:'',
-        description : '',
-        price : 0,
-        title:'',
-        createdDate : new Date().toDateString()
+        category: '',
+        description: '',
+        price: 0,
+        title: '',
+        createdDate: new Date().toDateString()
     }
 };
 
@@ -21,13 +21,23 @@ const BookSlice = createSlice({
     initialState,
     reducers: {
         addBook: (state, action: PayloadAction<IBook>) => {
-            state.books.push(action.payload); 
-        },
-        updateBook: (state, actions: PayloadAction<IBook>) => {
-            
-        },
-        deleteBook: (state, actions: PayloadAction<number>) => {
+            var list = state.books;
+            list.push(action.payload);
 
+        },
+        updateBook: (state, action: PayloadAction<IBook>) => {
+            const { title, price, category, description } = action.payload;
+            const item = state.books.find(x => x.id == action.payload.id)
+            if (item) {
+                item.category = category;
+                item.title = title;
+                item.price = price;
+                item.description = description
+            } 
+        },
+        deleteBook: (state, action: PayloadAction<number>) => {
+            const id = action.payload;
+            state.books = state.books.filter(x => x.id !== id)
         },
         getBookById: (state, actions: PayloadAction<number>) => {
 

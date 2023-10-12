@@ -13,17 +13,17 @@ const App: React.FC = () => {
   const dispatch = useAppDispatch();
   const store = useAppSelector(state => state)
 
-  const modalProp : IModal = {
-    children : <AddItem/>,
-    headerTitle : 'Add Book',
-    isOpen : true
+  const modalProp: IModal = {
+    children: <AddItem />,
+    headerTitle: 'Add Book',
+    isOpen: true
   }
-  
+
   const _AddHandler = (): any => {
     dispatch(openModal(modalProp))
   }
 
-  const _getAll = ()  => {
+  const _getAll = () => {
     dispatch(gerAllBook())
   }
 
@@ -34,9 +34,6 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Modal />
-      <div className='header'>
-        <h1>Navmonti BookStore</h1>
-      </div>
       <div className='content'>
         <div className='btn-bar'>
           <button className='btn-success btn' onClick={() => _AddHandler()}>Add</button>
