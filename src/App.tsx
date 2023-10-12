@@ -11,7 +11,7 @@ import IModal from './interfaces/IModal';
 
 const App: React.FC = () => {
   const dispatch = useAppDispatch();
-  const store = useAppSelector(state => state)
+  const state = useAppSelector(state => state)
 
   const modalProp: IModal = {
     children: <AddItem />,
@@ -19,16 +19,16 @@ const App: React.FC = () => {
     isOpen: true
   }
 
-  const _AddHandler = (): any => {
+  const AddHandler = (): any => {
     dispatch(openModal(modalProp))
   }
 
-  const _getAll = () => {
+  const GetAllBooks = () => {
     dispatch(gerAllBook())
   }
 
   useEffect(() => {
-    _getAll();
+    GetAllBooks();
   }, [])
 
   return (
@@ -36,9 +36,9 @@ const App: React.FC = () => {
       <Modal />
       <div className='content'>
         <div className='btn-bar'>
-          <button className='btn-success btn' onClick={() => _AddHandler()}>Add</button>
+          <button className='btn-success btn' onClick={() => AddHandler()}>Add</button>
         </div>
-        <ListItems bookList={store.book.books} />
+        <ListItems bookList={state.book.books} />
       </div>
     </div>
   );

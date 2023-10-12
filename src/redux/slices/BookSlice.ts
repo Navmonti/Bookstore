@@ -21,9 +21,7 @@ const BookSlice = createSlice({
     initialState,
     reducers: {
         addBook: (state, action: PayloadAction<IBook>) => {
-            var list = state.books;
-            list.push(action.payload);
-
+            state.books.push(action.payload);
         },
         updateBook: (state, action: PayloadAction<IBook>) => {
             const { title, price, category, description } = action.payload;

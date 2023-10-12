@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { IBook } from '../../interfaces/IBook';
-
 import '../list/listItems.css';
-import { useAppDispatch, useAppSelector } from '../../redux/store/hooks';
+import { useAppDispatch } from '../../redux/store/hooks';
 import { openModal } from '../../redux/slices/ModalSlice';
 import IModal from '../../interfaces/IModal';
 import EditItem from '../edit/editItem';
@@ -10,9 +9,8 @@ import DeleteItem from '../delete/deleteItem';
 
 export const ListItems: React.FC<{ bookList: IBook[] }> = ({ bookList }) => {
     const dispatch = useAppDispatch();
-    const state = useAppSelector(state => state)
 
-    const _DeleteHandler = (book: IBook): any => {
+    const DeleteHandler = (book: IBook): any => {
         var selectedItem : IBook = {
             id: book.id,
             category: book.category,
@@ -31,7 +29,7 @@ export const ListItems: React.FC<{ bookList: IBook[] }> = ({ bookList }) => {
         dispatch(openModal(modalProp));
     }
 
-    const _EditHandler = (book: IBook): any => {
+    const EditHandler = (book: IBook): any => {
         var selectedItem : IBook = {
             id: book.id,
             category: book.category,
@@ -69,8 +67,8 @@ export const ListItems: React.FC<{ bookList: IBook[] }> = ({ bookList }) => {
                         <td align="left">{row.category}</td>
                         <td align="left">{row.description}</td>
                         <td align="center">
-                            <button className="btn-table btn-error" onClick={() => _DeleteHandler(row)}>Delete</button>
-                            <button className="btn-table btn-warning" onClick={() => _EditHandler(row)}>Edit</button>
+                            <button className="btn-table btn-error" onClick={() => DeleteHandler(row)}>Delete</button>
+                            <button className="btn-table btn-warning" onClick={() => EditHandler(row)}>Edit</button>
                         </td>
                     </tr>
                 ))}

@@ -4,12 +4,9 @@ import { closeModal } from '../../redux/slices/ModalSlice';
 import { stringify } from 'querystring';
 import { IBook } from '../../interfaces/IBook';
 import { addBook } from '../../redux/slices/BookSlice';
+ 
 
-interface AddItemProps {
-
-}
-
-const AddItem: React.FC<AddItemProps> = ({ }) => {
+const AddItem: React.FC<IBook> = ({ }) => {
   const state = useAppSelector(state => state.book.books)
   const dispatch = useAppDispatch();
 
@@ -36,14 +33,7 @@ const AddItem: React.FC<AddItemProps> = ({ }) => {
     dispatch(addBook(book))
     dispatch(closeModal())
   };
-
-  const ClearForm = () => {
-    setTitle('');
-    setPrice('');
-    setCategory('');
-    setDescription('');
-  }
-
+ 
   return (
     <form>
       <div className="form-group">
