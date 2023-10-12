@@ -1,27 +1,48 @@
+import { useEffect } from 'react';
 import './App.css'
+import AddItem from './components/add/addItem';
 import { ListItems } from './components/list/listItems';
-import BookStore from './data/booklist'
+import { gerAllBook } from './redux/slices/BookSlice';
+import { openModal } from './redux/slices/ModalSlice';
+import { useAppDispatch, useAppSelector } from './redux/store/hooks';
+import Modal from './toolkit/Modal';
+import IModal from './interfaces/IModal';
+
+
 const App: React.FC = () => {
+  const dispatch = useAppDispatch();
+  const store = useAppSelector(state => state)
+
+  const modalProp : IModal = {
+    children : <AddItem/>,
+    headerTitle : 'Add Book',
+    isOpen : true
+  }
+  
   const _AddHandler = (): any => {
-    alert("Add Button presses")
+    dispatch(openModal(modalProp))
   }
 
-  const _EditHandler = (): any => {
-    alert("Edit Button presses")
+  const _getAll = ()  => {
+    dispatch(gerAllBook())
   }
+
+  useEffect(() => {
+    _getAll();
+  }, [])
 
   return (
     <div className="App">
+      <Modal />
       <div className='header'>
         <h1>Navmonti BookStore</h1>
       </div>
       <div className='content'>
         <div className='btn-bar'>
           <button className='btn-success btn' onClick={() => _AddHandler()}>Add</button>
-          <button className='btn-warning btn' onClick={() => _EditHandler()}>Edit</button>
         </div>
-        <ListItems items={BookStore} />
-      </div> 
+        <ListItems bookList={store.book.books} />
+      </div>
     </div>
   );
 }

@@ -1,76 +1,99 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
+import { useAppDispatch, useAppSelector } from '../../redux/store/hooks';
+import { closeModal } from '../../redux/slices/ModalSlice';
+import { stringify } from 'querystring';
+import { IBook } from '../../interfaces/IBook';
+import { addBook } from '../../redux/slices/BookSlice';
 
 interface AddItemProps {
-   
+
 }
 
-const AddItem: React.FC<AddItemProps> = ({  }) => {
+const AddItem: React.FC<AddItemProps> = ({ }) => {
+  const state = useAppSelector(state => state.book.books)
+  const dispatch = useAppDispatch();
+
   const [title, setTitle] = useState('');
   const [price, setPrice] = useState('');
   const [category, setCategory] = useState('');
   const [description, setDescription] = useState('');
 
-  const handleAddItem = () => { 
+  const maxId = state.reduce((max, obj) => (obj.id > max ? obj.id : max), 0);
 
-    // Clear the input fields
+  const handleCancel = () => {
+    dispatch(closeModal())
+  }
+  
+  const handleAddItem = () => { 
+    const book: IBook = {
+      id: maxId + 1,
+      title: title,
+      category: category,
+      price: parseInt(price),
+      description: description,
+      createdDate: new Date().toDateString()
+    }
+    dispatch(addBook(book))
+    dispatch(closeModal())
+  };
+
+  const ClearForm = () => {
     setTitle('');
     setPrice('');
     setCategory('');
     setDescription('');
-
-  };
+  }
 
   return (
-    <>
-      <h2>Add a Book</h2>
-      <form>
-        <div className="form-group">
-          <label className='input-label'>Title:</label>
-          <input
+    <form>
+      <div className="form-group">
+        <label className='input-label'>Title:</label>
+        <input
           className='input-field'
-            type="text"
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label className='input-label'>Price:</label>
-          <input
+          type="text"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          required
+        />
+      </div>
+      <div className="form-group">
+        <label className='input-label'>Price:</label>
+        <input
           className='input-field'
-            type="number"
-            value={price}
-            onChange={(e) => setPrice(e.target.value)}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label className='input-label'>Category:</label>
-          <input
+          type="number"
+          value={price}
+          onChange={(e) => setPrice(e.target.value)}
+          required
+        />
+      </div>
+      <div className="form-group">
+        <label className='input-label'>Category:</label>
+        <input
           className='input-field'
-            type="text"
-            value={category}
-            onChange={(e) => setCategory(e.target.value)}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label className='input-label'>Description:</label>
-          <textarea
-            
-            className='input-field'   
-            value={description}
-            onChange={(e) => setDescription(e.target.value)}
-            required   
-          />
-        </div>
-        <div className="button-container">
-          <button type="button" onClick={handleAddItem}>
-            Add Book
-          </button> 
-        </div>
-      </form>
-    </>
+          type="text"
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+          required
+        />
+      </div>
+      <div className="form-group">
+        <label className='input-label'>Description:</label>
+        <textarea
+          className='input-field'
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
+          required
+        />
+      </div>
+      <div className="button-container">
+        <button type="button" className="btn btn-success" onClick={() => handleAddItem()}>
+          Add
+        </button>
+        <button type="button" className="btn btn-cancel" onClick={() => handleCancel()}>
+          Close
+        </button>
+      </div>
+    </form>
   );
 };
 

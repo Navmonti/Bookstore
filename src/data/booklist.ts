@@ -1,124 +1,276 @@
 const BookStore = [
     {
-        name: "To Kill a Mockingbird",
-        price: 12.99,
-        category: "Fiction",
-        description: "A classic novel by Harper Lee..."
+        "id": 1,
+        "title": "Book 1",
+        "price": 10.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 1.",
+        "createdDate": "2022-08-15"
     },
     {
-        name: "Sapiens: A Brief History of Humankind",
-        price: 18.95,
-        category: "Non-Fiction",
-        description: "Yuval Noah Harari's exploration of human history..."
+        "id": 2,
+        "title": "Book 2",
+        "price": 12.49,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 2.",
+        "createdDate": "2022-09-20"
     },
     {
-        name: "Dune",
-        price: 14.75,
-        category: "Science Fiction",
-        description: "Frank Herbert's epic science fiction masterpiece..."
+        "id": 3,
+        "title": "Book 3",
+        "price": 9.99,
+        "category": "Mystery",
+        "description": "Sample description for Book 3.",
+        "createdDate": "2022-06-05"
     },
     {
-        name: "The Great Gatsby",
-        price: 9.99,
-        category: "Fiction",
-        description: "F. Scott Fitzgerald's classic portrayal of the Jazz Age..."
+        "id": 4,
+        "title": "Book 4",
+        "price": 11.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 4.",
+        "createdDate": "2022-07-10"
     },
     {
-        name: "The Hobbit",
-        price: 10.50,
-        category: "Fantasy",
-        description: "J.R.R. Tolkien's beloved fantasy adventure..."
+        "id": 5,
+        "title": "Book 5",
+        "price": 14.99,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 5.",
+        "createdDate": "2022-05-15"
     },
     {
-        name: "Harry Potter and the Sorcerer's Stone",
-        price: 15.99,
-        category: "Fantasy",
-        description: "The first book in J.K. Rowling's magical series..."
+        "id": 6,
+        "title": "Book 6",
+        "price": 8.99,
+        "category": "Mystery",
+        "description": "Sample description for Book 6.",
+        "createdDate": "2022-04-25"
     },
     {
-        name: "1984",
-        price: 11.25,
-        category: "Science Fiction",
-        description: "George Orwell's dystopian masterpiece..."
+        "id": 7,
+        "title": "Book 7",
+        "price": 13.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 7.",
+        "createdDate": "2022-03-30"
     },
     {
-        name: "The Catcher in the Rye",
-        price: 8.75,
-        category: "Fiction",
-        description: "J.D. Salinger's iconic novel of teenage angst..."
+        "id": 8,
+        "title": "Book 8",
+        "price": 12.99,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 8.",
+        "createdDate": "2022-02-10"
     },
     {
-        name: "The Alchemist",
-        price: 13.49,
-        category: "Fiction",
-        description: "Paulo Coelho's philosophical adventure..."
+        "id": 9,
+        "title": "Book 9",
+        "price": 10.49,
+        "category": "Mystery",
+        "description": "Sample description for Book 9.",
+        "createdDate": "2022-01-05"
     },
     {
-        name: "Pride and Prejudice",
-        price: 10.99,
-        category: "Fiction",
-        description: "Jane Austen's timeless tale of love and class..."
+        "id": 10,
+        "title": "Book 10",
+        "price": 9.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 10.",
+        "createdDate": "2022-10-18"
     },
     {
-        name: "The Road",
-        price: 9.95,
-        category: "Fiction",
-        description: "Cormac McCarthy's haunting post-apocalyptic novel..."
+        "id": 11,
+        "title": "Book 11",
+        "price": 13.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 11.",
+        "createdDate": "2022-11-15"
     },
     {
-        name: "Brave New World",
-        price: 12.80,
-        category: "Science Fiction",
-        description: "Aldous Huxley's vision of a dystopian future..."
+        "id": 12,
+        "title": "Book 12",
+        "price": 15.49,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 12.",
+        "createdDate": "2022-10-20"
     },
     {
-        name: "The Odyssey",
-        price: 7.99,
-        category: "Classics",
-        description: "Homer's epic poem of Odysseus's journey home..."
+        "id": 13,
+        "title": "Book 13",
+        "price": 12.99,
+        "category": "Mystery",
+        "description": "Sample description for Book 13.",
+        "createdDate": "2022-09-05"
     },
     {
-        name: "The Shining",
-        price: 13.25,
-        category: "Horror",
-        description: "Stephen King's chilling tale of a haunted hotel..."
+        "id": 14,
+        "title": "Book 14",
+        "price": 11.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 14.",
+        "createdDate": "2022-08-10"
     },
     {
-        name: "The Girl with the Dragon Tattoo",
-        price: 11.99,
-        category: "Mystery",
-        description: "Stieg Larsson's gripping thriller..."
+        "id": 15,
+        "title": "Book 15",
+        "price": 16.99,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 15.",
+        "createdDate": "2022-07-15"
     },
     {
-        name: "The Martian",
-        price: 12.49,
-        category: "Science Fiction",
-        description: "Andy Weir's story of an astronaut stranded on Mars..."
+        "id": 16,
+        "title": "Book 16",
+        "price": 10.99,
+        "category": "Mystery",
+        "description": "Sample description for Book 16.",
+        "createdDate": "2022-06-05"
     },
     {
-        name: "The Hunger Games",
-        price: 9.75,
-        category: "Science Fiction",
-        description: "Suzanne Collins's dystopian adventure..."
+        "id": 17,
+        "title": "Book 17",
+        "price": 12.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 17.",
+        "createdDate": "2022-12-02"
     },
     {
-        name: "The Lord of the Rings",
-        price: 19.99,
-        category: "Fantasy",
-        description: "J.R.R. Tolkien's epic fantasy trilogy..."
+        "id": 18,
+        "title": "Book 18",
+        "price": 11.49,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 18.",
+        "createdDate": "2022-11-20"
     },
     {
-        name: "The Da Vinci Code",
-        price: 10.99,
-        category: "Mystery",
-        description: "Dan Brown's religious conspiracy thriller..."
+        "id": 19,
+        "title": "Book 19",
+        "price": 10.99,
+        "category": "Mystery",
+        "description": "Sample description for Book 19.",
+        "createdDate": "2022-10-15"
     },
     {
-        name: "The Hitchhiker's Guide to the Galaxy",
-        price: 8.95,
-        category: "Science Fiction",
-        description: "Douglas Adams's hilarious space adventure..."
+        "id": 20,
+        "title": "Book 20",
+        "price": 9.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 20.",
+        "createdDate": "2022-07-02"
     },
-];
+    {
+        "id": 21,
+        "title": "Book 21",
+        "price": 12.99,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 21.",
+        "createdDate": "2022-06-05"
+    },
+    {
+        "id": 22,
+        "title": "Book 22",
+        "price": 13.49,
+        "category": "Mystery",
+        "description": "Sample description for Book 22.",
+        "createdDate": "2022-04-28"
+    },
+    {
+        "id": 23,
+        "title": "Book 23",
+        "price": 12.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 23.",
+        "createdDate": "2022-03-15"
+    },
+    {
+        "id": 24,
+        "title": "Book 24",
+        "price": 14.49,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 24.",
+        "createdDate": "2022-02-28"
+    },
+    {
+        "id": 25,
+        "title": "Book 25",
+        "price": 11.99,
+        "category": "Mystery",
+        "description": "Sample description for Book 25.",
+        "createdDate": "2022-01-18"
+    },
+    {
+        "id": 26,
+        "title": "Book 26",
+        "price": 12.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 26.",
+        "createdDate": "2022-07-15"
+    },
+    {
+        "id": 27,
+        "title": "Book 27",
+        "price": 10.99,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 27.",
+        "createdDate": "2022-04-22"
+    },
+    {
+        "id": 28,
+        "title": "Book 28",
+        "price": 11.49,
+        "category": "Mystery",
+        "description": "Sample description for Book 28.",
+        "createdDate": "2022-03-10"
+    },
+    {
+        "id": 29,
+        "title": "Book 29",
+        "price": 13.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 29.",
+        "createdDate": "2022-12-15"
+    },
+    {
+        "id": 30,
+        "title": "Book 30",
+        "price": 15.49,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 30.",
+        "createdDate": "2022-11-20"
+    },
+    {
+        "id": 31,
+        "title": "Book 31",
+        "price": 12.99,
+        "category": "Mystery",
+        "description": "Sample description for Book 31.",
+        "createdDate": "2022-10-05"
+    },
+    {
+        "id": 32,
+        "title": "Book 32",
+        "price": 11.99,
+        "category": "Fiction",
+        "description": "Sample description for Book 32.",
+        "createdDate": "2022-09-10"
+    },
+    {
+        "id": 33,
+        "title": "Book 33",
+        "price": 16.99,
+        "category": "Science Fiction",
+        "description": "Sample description for Book 33.",
+        "createdDate": "2022-08-15"
+    },
+    {
+        "id": 34,
+        "title": "Book 34",
+        "price": 10.99,
+        "category": "Mystery",
+        "description": "Sample description for Book 34.",
+        "createdDate": "2022-07-05"
+    }
+]
 
 export default BookStore;

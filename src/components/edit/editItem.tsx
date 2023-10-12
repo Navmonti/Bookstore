@@ -1,76 +1,77 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
+import { IBook } from '../../interfaces/IBook';
+import { useAppDispatch, useAppSelector } from '../../redux/store/hooks';
+import { closeModal } from '../../redux/slices/ModalSlice';
 
-interface EditItemProps {
-   
-}
+const EditItem : React.FC<{book : IBook}> = ({book}) => {  
+  const dispatch = useAppDispatch();
 
-const EditItem: React.FC<EditItemProps> = ({  }) => {
-  const [title, setTitle] = useState('');
-  const [price, setPrice] = useState('');
-  const [category, setCategory] = useState('');
-  const [description, setDescription] = useState('');
+  const [title, setTitle] = useState(book.title);
+  const [price, setPrice] = useState(book.price);
+  const [category, setCategory] = useState(book.category);
+  const [description, setDescription] = useState(book.description);
 
-  const handleEditItem = () => { 
+  const handleCancel = () => {
+    dispatch(closeModal())
+  }
 
-    // Clear the input fields
+  const handleEditItem = () => {
     setTitle('');
-    setPrice('');
+    setPrice(0);
     setCategory('');
     setDescription('');
-
   };
 
   return (
-    <>
-      <h2>Add a Book</h2>
-      <form>
-        <div className="form-group">
-          <label className='input-label'>Title:</label>
-          <input
-          className='input-field'
-            type="text"
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label className='input-label'>Price:</label>
-          <input
-          className='input-field'
-            type="number"
-            value={price}
-            onChange={(e) => setPrice(e.target.value)}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label className='input-label'>Category:</label>
-          <input
-          className='input-field'
-            type="text"
-            value={category}
-            onChange={(e) => setCategory(e.target.value)}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label className='input-label'>Description:</label>
-          <textarea
-            
-            className='input-field'   
-            value={description}
-            onChange={(e) => setDescription(e.target.value)}
-            required   
-          />
-        </div>
-        <div className="button-container">
-          <button type="button" onClick={handleEditItem}>
-            Add Book
-          </button> 
-        </div>
-      </form>
-    </>
+    <form>
+    <div className="form-group">
+      <label className='input-label'>Title:</label>
+      <input
+        className='input-field'
+        type="text"
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
+        required
+      />
+    </div>
+    <div className="form-group">
+      <label className='input-label'>Price:</label>
+      <input
+        className='input-field'
+        type="number"
+        value={price}
+        onChange={(e) => setPrice(parseInt(e.target.value))}
+        required
+      />
+    </div>
+    <div className="form-group">
+      <label className='input-label'>Category:</label>
+      <input
+        className='input-field'
+        type="text"
+        value={category}
+        onChange={(e) => setCategory(e.target.value)}
+        required
+      />
+    </div>
+    <div className="form-group">
+      <label className='input-label'>Description:</label>
+      <textarea
+        className='input-field'
+        value={description}
+        onChange={(e) => setDescription(e.target.value)}
+        required
+      />
+    </div>
+    <div className="button-container">
+      <button type="button" className="btn btn-warning" onClick={() => handleEditItem()}>
+        Edit
+      </button>
+      <button type="button" className="btn btn-cancel" onClick={() => handleCancel()}>
+        Close
+      </button>
+    </div>
+  </form>
   );
 };
 

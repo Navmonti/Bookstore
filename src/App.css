@@ -9,7 +9,7 @@ h1 {
 
 .header {
     text-align: center;
-    background-color: rgb(171, 182, 182);
+    background-color: rgb(192 211 211 / 39%);
     padding: 30px 0;
 }
 
@@ -35,13 +35,36 @@ h1 {
 }
 
 
-.btn-success {
-    border: 0px;
-    background-color: rgb(177, 250, 148);
 
-}
+/* Styles for textboxes */
+.form-group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
 
-.btn-warning { 
-    border: 0px;
-    background-color: rgb(252, 214, 131);
-}
+  

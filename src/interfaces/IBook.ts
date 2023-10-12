@@ -1,11 +1,14 @@
-interface IBookList {
-    items: {
-        name: string;
-        price: number;
-        category: string;
-        description: string
-    }[];
+export interface IBookState {
+    books : IBook[];
+    selectedBook : IBook  
 }
 
-
-export default IBookList;
+export interface IBook {
+    id: number;
+    title: string;
+    price: number;
+    category: string;
+    description: string;
+    createdDate : string;
+}
+  
