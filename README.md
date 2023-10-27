@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About Project
+
+This project encompasses a comprehensive Bookstore application that features a tabular display presenting an organized catalog of books. Users have the capability to append new entries to this catalog. Within each row of the table, pertinent book details are readily accessible, including Title, Category, Price, and Description. Furthermore, users are empowered to perform actions such as editing and deleting individual records.
+
 ## Available Scripts
 
 In the project directory, you can run:
