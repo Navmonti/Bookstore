@@ -14,13 +14,12 @@ const AddItem: React.FC<any> = ({ }) => {
   const [category, setCategory] = useState('');
   const [description, setDescription] = useState('');
 
-  const maxId = state.reduce((max, obj) => (obj.id > max ? obj.id : max), 0);
-
   const handleCancel = () => {
     dispatch(closeModal())
   }
   
   const handleAddItem = () => { 
+    const maxId = state.reduce((max, obj) => (obj.id > max ? obj.id : max), 0);
     const book: IBook = {
       id: maxId + 1,
       title: title,

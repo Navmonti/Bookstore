@@ -1,0 +1,17 @@
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\bin\Debug\net6.0\BookStore.Presentation.deps.json
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\bin\Debug\net6.0\BookStore.Presentation.dll
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\bin\Debug\net6.0\BookStore.Presentation.pdb
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\bin\Debug\net6.0\BookStore.Application.dll
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\bin\Debug\net6.0\BookStore.Domain.dll
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\bin\Debug\net6.0\BookStore.Application.pdb
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\bin\Debug\net6.0\BookStore.Domain.pdb
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\obj\Debug\net6.0\BookStore.Presentation.csproj.AssemblyReference.cache
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\obj\Debug\net6.0\BookStore.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\obj\Debug\net6.0\BookStore.Presentation.AssemblyInfoInputs.cache
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\obj\Debug\net6.0\BookStore.Presentation.AssemblyInfo.cs
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\obj\Debug\net6.0\BookStore.Presentation.csproj.CoreCompileInputs.cache
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\obj\Debug\net6.0\BookStore.Presentation.csproj.CopyComplete
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\obj\Debug\net6.0\BookStore.Presentation.dll
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\obj\Debug\net6.0\refint\BookStore.Presentation.dll
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\obj\Debug\net6.0\BookStore.Presentation.pdb
+D:\Project\Challenges\Bookstore\BookStore\BookStore.Presentation\obj\Debug\net6.0\ref\BookStore.Presentation.dll

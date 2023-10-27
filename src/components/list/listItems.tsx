@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { IBook } from '../../interfaces/IBook';
-import '../list/listItems.css';
+import { IBook } from '../../interfaces/IBook'; 
 import { useAppDispatch } from '../../redux/store/hooks';
 import { openModal } from '../../redux/slices/ModalSlice';
 import IModal from '../../interfaces/IModal';

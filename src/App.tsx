@@ -5,7 +5,7 @@ import { ListItems } from './components/list/listItems';
 import { gerAllBook } from './redux/slices/BookSlice';
 import { openModal } from './redux/slices/ModalSlice';
 import { useAppDispatch, useAppSelector } from './redux/store/hooks';
-import Modal from './toolkit/Modal';
+import Modal from './toolkit/modal/Modal';
 import IModal from './interfaces/IModal';
 
 

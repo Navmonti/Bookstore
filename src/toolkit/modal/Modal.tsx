@@ -1,10 +1,10 @@
 // Modal.tsx
 import React from 'react';
-import { closeModal } from '../redux/slices/ModalSlice';
-import { useAppDispatch, useAppSelector } from '../redux/store/hooks';
-import { RootState } from '../redux/store/store';
-import './../toolkit/modal.css'
-import ModalProps from '../interfaces/IModal';
+import { closeModal } from '../../redux/slices/ModalSlice';
+import { useAppDispatch, useAppSelector } from '../../redux/store/hooks';
+import { RootState } from '../../redux/store/store';
+import './modal.css'
+import ModalProps from '../../interfaces/IModal';
 
 const Modal  = () => {
   const dispatch = useAppDispatch();
