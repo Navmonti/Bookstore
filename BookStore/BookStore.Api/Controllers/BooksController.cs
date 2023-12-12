@@ -11,7 +11,7 @@ namespace BookStore.Api.Controllers
     {
         private readonly IBookService _bookService;
         public BooksController(IBookService bookService)
-         =>   _bookService = _bookService;
+         =>   _bookService = bookService;
 
 
         [HttpPost]

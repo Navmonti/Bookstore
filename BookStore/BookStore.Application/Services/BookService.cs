@@ -9,7 +9,12 @@ namespace BookStore.Application.Services
         private readonly IBookRepository _bookRepository;
         public BookService(IBookRepository bookRepository)
                 => _bookRepository = bookRepository;
-     
+
+        public BookService()
+        {
+                
+        }
+
         public async Task<Book> AddAsync(Book model)
         {
             try

@@ -21,8 +21,7 @@ builder.Services.AddDbContext<BookStoreDbContext>(options =>
 
 
 ///Repositories Mapping
-builder.Services.AddScoped<IBookRepository, BookRepository>();
-//builder.Services.AddScoped<typeof(IGenericRepository<>), typeof(GenericRepository<>) ();
+builder.Services.AddScoped<IBookRepository, BookRepository>(); 
 
 ///Services Mapping
 builder.Services.AddScoped<IBookService, BookService>();
