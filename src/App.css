@@ -19,7 +19,7 @@ h1 {
 }
 
 .App {
-    background-color: rgb(250 250 250);
+  background-image: url('./files/images/pexels-josh-sorenson-990432.jpg');
     height: 100%;
 }
 
@@ -87,11 +87,11 @@ h1 {
   }
   
   tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2cc;
   }
   
   tr:nth-child(odd) {
-    background-color: #dddddd;
+    background-color: #c9c9c9b0;
   }
   
   
