@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iRaA7sYqFo9EbjICftK/M3npWTIJZ1QDigmNxhljn+7MFRHLSClOlu4K/1p7igk1MXhSc60kfHjBYf5LoWQ4Ew==",
+  "dgSpecHash": "Pmbxyz8XkKM=",
   "success": true,
-  "projectFilePath": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj",
+  "projectFilePath": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

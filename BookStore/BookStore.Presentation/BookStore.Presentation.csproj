@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="application\.github\**" />
+    <Compile Remove="application\.git\**" />
+    <EmbeddedResource Remove="application\.github\**" />
+    <EmbeddedResource Remove="application\.git\**" />
+    <None Remove="application\.github\**" />
+    <None Remove="application\.git\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BookStore.Application\BookStore.Application.csproj" />
   </ItemGroup>
 

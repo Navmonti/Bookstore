@@ -3340,11 +3340,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Api\\BookStore.Api.csproj",
+      "projectUniqueName": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Api\\BookStore.Api.csproj",
       "projectName": "BookStore.Api",
-      "projectPath": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Api\\BookStore.Api.csproj",
+      "projectPath": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Api\\BookStore.Api.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Api\\obj\\",
+      "outputPath": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3361,11 +3361,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj": {
-              "projectPath": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj"
+            "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj": {
+              "projectPath": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj"
             },
-            "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj": {
-              "projectPath": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj"
+            "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj": {
+              "projectPath": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj"
             }
           }
         }
@@ -3374,6 +3374,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3414,7 +3419,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

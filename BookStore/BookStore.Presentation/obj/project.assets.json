@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Presentation\\BookStore.Presentation.csproj",
+      "projectUniqueName": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\BookStore.Presentation.csproj",
       "projectName": "BookStore.Presentation",
-      "projectPath": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Presentation\\BookStore.Presentation.csproj",
+      "projectPath": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\BookStore.Presentation.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Presentation\\obj\\",
+      "outputPath": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,8 +71,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Application\\BookStore.Application.csproj": {
-              "projectPath": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Application\\BookStore.Application.csproj"
+            "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Application\\BookStore.Application.csproj": {
+              "projectPath": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Application\\BookStore.Application.csproj"
             }
           }
         }
@@ -81,6 +81,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -102,7 +107,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

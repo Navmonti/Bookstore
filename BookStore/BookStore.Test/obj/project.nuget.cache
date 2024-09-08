@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TCuS+7/29fb7TyMJ6xwy+Eg5H2LQjfXVnisJMdpj8rWcIXLGsKCCkCIQvXqi5tK6Yl8JAfdU+GRulNdn8KhFqg==",
+  "dgSpecHash": "NOVLz9uJUaE=",
   "success": true,
-  "projectFilePath": "D:\\Project\\Challenges\\Bookstore\\BookStore\\BookStore.Test\\BookStore.Test.csproj",
+  "projectFilePath": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Test\\BookStore.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
