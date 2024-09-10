@@ -1,0 +1,9 @@
+.vs/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.ncb
+*.sdf
+*.cache
+*.log

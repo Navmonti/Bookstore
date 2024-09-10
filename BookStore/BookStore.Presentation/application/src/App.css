@@ -1,3 +1,7 @@
+* {
+    text-decoration: none
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -15,11 +19,10 @@ h1 {
 }
 
 .content {
-    padding:40px ;
+    padding: 40px;
 }
 
-.App {
-  background-image: url('./files/images/pexels-josh-sorenson-990432.jpg');
+.App { 
     height: 100%;
 }
 
@@ -46,79 +49,188 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .input-label {
+}
+
+.input-label {
     display: block;
     font-weight: bold;
     margin-bottom: 4px;
     text-align: left;
     width: 100%;
-  }
-  
-  .input-field {
+}
+
+.input-field {
     width: 100%;
     padding: 8px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
     outline: none;
-  }
-  
-  textarea {
-    resize: none;
-  }
+}
 
-  table {
+textarea {
+    resize: none;
+}
+
+table {
     width: 100%;
     border-collapse: collapse;
-  }
-  
-  th,
-  td {
+}
+
+th,
+td {
     padding: 5px;
     border: 1px solid rgb(183, 183, 183);
     color: #333;
-  }
-  
-  th {
+}
+
+th {
     background-color: #4c4c4c;
-      color: #ffffff;
-  }
-  
-  tr:nth-child(even) {
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
     background-color: #f2f2f2cc;
-  }
-  
-  tr:nth-child(odd) {
+}
+
+tr:nth-child(odd) {
     background-color: #c9c9c9b0;
-  }
-  
-  
-  .btn-error {
+}
+
+
+.btn-error {
     border: 0px;
     color: #fff;
     background-color: rgb(255 111 111);
-  }
-  
-  .btn-warning {
+}
+
+.btn-warning {
     border: 0px;
     background-color: rgb(252, 214, 131);
-  }
-  
-  .btn-success {
-      border: 0px;
-      background-color: rgb(177, 250, 148);
-  }
-  
-  .btn-cancel {
-      color : #fff;
-      border: none;
-      background-color: rgb(132, 132, 132);
-  }
-  
-  .btn-table {border-radius: 5px;
-    padding : 5px 10px;
-    border : none;
-    margin : auto 5px;
-  }
+}
+
+.btn-success {
+    border: 0px;
+    background-color: rgb(177, 250, 148);
+}
+
+.btn-cancel {
+    color: #fff;
+    border: none;
+    background-color: rgb(132, 132, 132);
+}
+
+.btn-table {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    margin: auto 5px;
+}
+
+.navbar-web {
+    width: 100%;
+    background-color: #20586c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+ 
+
+
+.log {
+    padding:10px;
+}
+
+    .log img {
+        width: 80px;
+        height: 70px;
+        margin: auto 10px;
+    }
+
+.menuItems {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.navbaritem {
+    padding: 1px;
+    margin: 25px; 
+    color: #dc390e;
+    font-size: 20px;
+}
+
+
+.login {
+    padding:0 10px;
+}
+
+.btn-nav {
+    margin : auto 10px;
+}
+
+.btn-login {
+    background-color: #012e46;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #FF5722;
+    width: 100px;
+}
+
+.btn-signup {
+    background-color: #034b71;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #FF5722;
+    width: 100px;
+}
+
+
+.banner {
+    display: flex;
+    width: 100%;
+    background: #ffffff;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.banner-text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 8%;
+}
+ 
+    .banner-text h1 {
+        color: #30576a;
+        font-size: 5rem;
+    }
+
+
+.banner-text p {
+    color: #ef5734;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 5%;
+}
+
+    .banner-text p:nth-child(2) {
+        background-color: #102d44;
+        color: #ef5734;
+        font-size: 2.5rem;
+        padding: 20px;
+    }
+
+banner-image {}

@@ -1,7 +1,7 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction, createAsyncThunk } from "@reduxjs/toolkit"; 
 import { IBook, IBookState } from "../../interfaces/IBook";
 import BookStore from './../../data/booklist'
-
+import axios from 'axios'
 
 const initialState: IBookState = {
     books: [],
@@ -21,7 +21,7 @@ const BookSlice = createSlice({
     initialState,
     reducers: {
         addBook: (state, action: PayloadAction<IBook>) => {
-            state.books.push(action.payload);
+           state.books.push(action.payload);
         },
         updateBook: (state, action: PayloadAction<IBook>) => {
             const { title, price, category, description } = action.payload;
@@ -41,6 +41,9 @@ const BookSlice = createSlice({
 
         },
         gerAllBook: (state) => {
+            debugger;
+            var response = axios.get("https://localhost:7180/Books/GetAllBook");
+            debugger;
             state.books = BookStore
         }
     },
