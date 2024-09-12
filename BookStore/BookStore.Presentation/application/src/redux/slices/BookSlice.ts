@@ -41,9 +41,9 @@ const BookSlice = createSlice({
 
         },
         gerAllBook: (state) => {
-            debugger;
-            var response = axios.get("https://localhost:7180/Books/GetAllBook");
-            debugger;
+            //debugger;
+            //var response = axios.get("https://localhost:7180/Books/GetAllBook");
+            //debugger;
             state.books = BookStore
         }
     },

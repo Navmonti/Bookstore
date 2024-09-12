@@ -22,7 +22,7 @@ h1 {
     padding: 40px;
 }
 
-.App { 
+.App {
     height: 100%;
 }
 
@@ -85,8 +85,8 @@ td {
 }
 
 th {
-    background-color: #4c4c4c;
-    color: #ffffff;
+    background-color: #182c42;
+    color: #de6141;
 }
 
 tr:nth-child(even) {
@@ -137,11 +137,11 @@ tr:nth-child(odd) {
     align-content: center;
     flex-wrap: wrap;
 }
- 
+
 
 
 .log {
-    padding:10px;
+    padding: 10px;
 }
 
     .log img {
@@ -162,18 +162,22 @@ tr:nth-child(odd) {
 
 .navbaritem {
     padding: 1px;
-    margin: 25px; 
+    margin: 25px;
     color: #dc390e;
     font-size: 20px;
 }
 
+.navbaritem:hover {
+    color: #ffffff;
+}
+
 
 .login {
-    padding:0 10px;
+    padding: 0 10px;
 }
 
 .btn-nav {
-    margin : auto 10px;
+    margin: auto 10px;
 }
 
 .btn-login {
@@ -199,11 +203,10 @@ tr:nth-child(odd) {
     display: flex;
     width: 100%;
     background: #ffffff;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
+    align-content: space-between;
+    align-items: flex-start;
     padding: 50px 0;
+    flex-direction: row; 
 }
 
 .banner-text {
@@ -212,25 +215,53 @@ tr:nth-child(odd) {
     flex-direction: column;
     padding: 8%;
 }
- 
+
     .banner-text h1 {
         color: #30576a;
         font-size: 5rem;
     }
 
 
-.banner-text p {
-    color: #ef5734;
-    font-size: 2.5rem;
-    padding: 0;
-    margin: 5%;
-}
-
-    .banner-text p:nth-child(2) {
-        background-color: #102d44;
+    .banner-text p {
         color: #ef5734;
         font-size: 2.5rem;
-        padding: 20px;
+        padding: 0;
+        margin: 15px 5%;
     }
 
-banner-image {}
+        .banner-text p:nth-child(2) {
+            background-color: #102d44;
+            color: #ef5734;
+            padding: 30px 10px 30px 40px;
+            font-size: 2.5rem;
+        }
+
+        .banner-text p:nth-child(3) {
+            color: #717171;
+            font-style: italic;
+        }
+
+.banner-image {
+    text-align: center;
+    position : relative;
+}
+
+.banner-image-cover {
+    background: linear-gradient(to bottom, transparent 48%, #fff 83%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.banner-image img {
+    max-width: 90%;
+    margin: auto;
+}
+
+.bookList {
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: top center; 
+    background-image: url('files/images/midsection.jpg')
+}

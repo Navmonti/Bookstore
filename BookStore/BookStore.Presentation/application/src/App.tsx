@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useEffect } from 'react';
 import './App.css'
@@ -8,8 +9,9 @@ import { openModal } from './redux/slices/ModalSlice';
 import { useAppDispatch, useAppSelector } from './redux/store/hooks';
 import Modal from './toolkit/modal/Modal';
 import IModal from './interfaces/IModal';
-import logo from './files/images/logo.png'
 import banner from './files/images/bannerimage.jpg'
+import aboutImg from './files/images/aboutme.png' 
+import WebNavbar from './components/shared/webNavbar';
 
 
 const App: React.FC = () => {
@@ -27,7 +29,7 @@ const App: React.FC = () => {
   }
 
   const GetAllBooks = () => {
-    //dispatch(gerAllBook())
+    dispatch(gerAllBook())
   }
 
   useEffect(() => {
@@ -37,51 +39,37 @@ const App: React.FC = () => {
   return (
     <div className="App">
           <Modal />
-          <nav className="navbar-web">
-              <div className="log">
-                  <img src={logo} alt="Bookstore Logo" />
-              </div>
-              <div className="menuItems">
-                  <a className="navbaritem" href="#">
-                      Home
-                  </a>
-                  <a className="navbaritem" href="#">
-                      About Us
-                  </a>
-                  <a className="navbaritem" href="#">
-                      Contact Us
-                  </a>
-                  <a className="navbaritem" href="#">
-                      Books
-                  </a>
-                  <a className="navbaritem" href="#">
-                      Order
-                  </a>
-              </div>
-              <div className="login">
-                  <button className="btn-nav btn-login">
-                    Login
-                  </button>
-                  <button className="btn-nav btn-signup">
-                    Signup
-                  </button>
-              </div>
-          </nav>
-          <section id="banner" className="banner">
+          <WebNavbar/>
+
+          <section id="banner" className="banner section">
               <div className="banner-text">
                   <p><span>W</span>elcome to your <h1>Bookstore</h1></p>
                   <p>Find your next great read!</p>
+                  <p>You can make book list for yourself and leave comment on them</p>
               </div>
               <div className="banner-image">
-                  <img src={banner} alt="banner image"/> 
+                  <div className="banner-image-cover"></div>
+                  <img src={banner} alt="banner image"></img>   
               </div>
           </section>
-      {/*<div className='content'>*/}
-      {/*  <div className='btn-bar'>*/}
-      {/*    <button className='btn-success btn' onClick={() => AddHandler()}>Add</button>*/}
-      {/*  </div>*/}
-      {/*  <ListItems bookList={state.book.books} />*/}
-      {/* </div>*/}
+
+          <section id="about" className="about section">
+              <div className="about-text">
+                  <p>A bookstore serves as a hub for knowledge, imagination, and cultural exchange, offering readers access to a vast array of literature across genres. Its primary aim is to foster a love of reading, provide educational resources, and inspire curiosity. Bookstores often strive to create a community space where individuals can explore new ideas, deepen their understanding of the world, and find personal enjoyment through books. In addition, they aim to support authors and publishers, promote literacy, and offer readers both a physical and intellectual sanctuary for learning and relaxation.</p>
+              </div>
+              <div className="about-image">
+                  <img src={aboutImg} alt="about image"></img>  
+              </div>
+          </section>
+
+          <section id="bookList" className="bookList">
+              <div className='content'>
+                  <div className='btn-bar'>
+                      <button className='btn-success btn' onClick={() => AddHandler()}>Add</button>
+                  </div>
+                  <ListItems bookList={state.book.books} />
+              </div>
+          </section>
     </div>
   );
 }
