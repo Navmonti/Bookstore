@@ -10,8 +10,9 @@ import { useAppDispatch, useAppSelector } from './redux/store/hooks';
 import Modal from './toolkit/modal/Modal';
 import IModal from './interfaces/IModal';
 import banner from './files/images/bannerimage.jpg'
-import aboutImg from './files/images/aboutme.png' 
-import WebNavbar from './components/shared/webNavbar';
+import aboutImg from './files/images/aboutme.png'
+import WebNavbar from './../src/components/shared/navbar/web/webNavbar';
+import MobileNavbar from './../src/components/shared/navbar/mobile/mobileNavbar';
 
 
 const App: React.FC = () => {
@@ -53,14 +54,14 @@ const App: React.FC = () => {
               </div>
           </section>
 
-          <section id="about" className="about section">
-              <div className="about-text">
-                  <p>A bookstore serves as a hub for knowledge, imagination, and cultural exchange, offering readers access to a vast array of literature across genres. Its primary aim is to foster a love of reading, provide educational resources, and inspire curiosity. Bookstores often strive to create a community space where individuals can explore new ideas, deepen their understanding of the world, and find personal enjoyment through books. In addition, they aim to support authors and publishers, promote literacy, and offer readers both a physical and intellectual sanctuary for learning and relaxation.</p>
-              </div>
-              <div className="about-image">
-                  <img src={aboutImg} alt="about image"></img>  
-              </div>
-          </section>
+          {/*<section id="about" className="about section">*/}
+          {/*    <div className="about-text">*/}
+          {/*        <p>A bookstore serves as a hub for knowledge, imagination, and cultural exchange, offering readers access to a vast array of literature across genres. Its primary aim is to foster a love of reading, provide educational resources, and inspire curiosity. Bookstores often strive to create a community space where individuals can explore new ideas, deepen their understanding of the world, and find personal enjoyment through books. In addition, they aim to support authors and publishers, promote literacy, and offer readers both a physical and intellectual sanctuary for learning and relaxation.</p>*/}
+          {/*    </div>*/}
+          {/*    <div className="about-image">*/}
+          {/*        <img src={aboutImg} alt="about image"></img>  */}
+          {/*    </div>*/}
+          {/*</section>*/}
 
           <section id="bookList" className="bookList">
               <div className='content'>

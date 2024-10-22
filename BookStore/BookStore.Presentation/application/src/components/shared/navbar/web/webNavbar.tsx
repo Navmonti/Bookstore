@@ -1,5 +1,6 @@
 ﻿import React from "react"; 
-import logo from '../../files/images/logo.png';
+import logo from '../../../../files/images/logo.png';
+import "./style.css"
 
 export const WebNavbar: React.FC = () => {
     return (

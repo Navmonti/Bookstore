@@ -1,0 +1,9 @@
+﻿.navbar-web {
+    display: flex;
+    background: #013e4a;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #20586c;
+}
