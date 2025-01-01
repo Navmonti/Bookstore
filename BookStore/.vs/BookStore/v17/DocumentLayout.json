@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|d:\\project\\github sample repository\\bookstore\\bookstore\\bookstore.presentation\\application\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|solutionrelative:bookstore.presentation\\application\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|d:\\project\\github sample repository\\bookstore\\bookstore\\bookstore.presentation\\application\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|solutionrelative:bookstore.presentation\\application\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|d:\\project\\github sample repository\\bookstore\\bookstore\\bookstore.presentation\\application\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|solutionrelative:bookstore.presentation\\application\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|d:\\project\\github sample repository\\bookstore\\bookstore\\bookstore.presentation\\application\\src\\components\\shared\\navbar\\web\\webstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|solutionrelative:bookstore.presentation\\application\\src\\components\\shared\\navbar\\web\\webstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|d:\\project\\github sample repository\\bookstore\\bookstore\\bookstore.presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobilestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|solutionrelative:bookstore.presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobilestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|d:\\project\\github sample repository\\bookstore\\bookstore\\bookstore.presentation\\application\\src\\components\\shared\\navbar\\web\\webnavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|solutionrelative:bookstore.presentation\\application\\src\\components\\shared\\navbar\\web\\webnavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|d:\\project\\github sample repository\\bookstore\\bookstore\\bookstore.presentation\\application\\src\\components\\shared\\navbar\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|solutionrelative:bookstore.presentation\\application\\src\\components\\shared\\navbar\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|d:\\project\\github sample repository\\bookstore\\bookstore\\bookstore.presentation\\application\\src\\general.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|solutionrelative:bookstore.presentation\\application\\src\\general.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|d:\\project\\github sample repository\\bookstore\\bookstore\\bookstore.presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobilenavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4DF05123-1AB2-4E16-B58A-6E04CEA4AAE1}|BookStore.Presentation\\BookStore.Presentation.csproj|solutionrelative:bookstore.presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobilenavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +46,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.css",
+              "DocumentMoniker": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\index.css",
+              "RelativeDocumentMoniker": "BookStore.Presentation\\application\\src\\index.css",
+              "ToolTip": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\index.css",
+              "RelativeToolTip": "BookStore.Presentation\\application\\src\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-30T00:55:33.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.css",
+              "DocumentMoniker": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\App.css",
+              "RelativeDocumentMoniker": "BookStore.Presentation\\application\\src\\App.css",
+              "ToolTip": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\App.css",
+              "RelativeToolTip": "BookStore.Presentation\\application\\src\\App.css",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAtwMgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T22:08:16.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "webStyle.css",
+              "DocumentMoniker": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\components\\shared\\navbar\\web\\webStyle.css",
+              "RelativeDocumentMoniker": "BookStore.Presentation\\application\\src\\components\\shared\\navbar\\web\\webStyle.css",
+              "ToolTip": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\components\\shared\\navbar\\web\\webStyle.css",
+              "RelativeToolTip": "BookStore.Presentation\\application\\src\\components\\shared\\navbar\\web\\webStyle.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T21:38:02.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "mobileStyle.css",
+              "DocumentMoniker": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobileStyle.css",
+              "RelativeDocumentMoniker": "BookStore.Presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobileStyle.css",
+              "ToolTip": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobileStyle.css",
+              "RelativeToolTip": "BookStore.Presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobileStyle.css",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowCcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T21:25:10.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "mobileNavbar.tsx",
+              "DocumentMoniker": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobileNavbar.tsx",
+              "RelativeDocumentMoniker": "BookStore.Presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobileNavbar.tsx",
+              "ToolTip": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobileNavbar.tsx",
+              "RelativeToolTip": "BookStore.Presentation\\application\\src\\components\\shared\\navbar\\mobile\\mobileNavbar.tsx",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-29T19:32:04.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Navbar.tsx",
+              "DocumentMoniker": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\components\\shared\\navbar\\Navbar.tsx",
+              "RelativeDocumentMoniker": "BookStore.Presentation\\application\\src\\components\\shared\\navbar\\Navbar.tsx",
+              "ToolTip": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\components\\shared\\navbar\\Navbar.tsx",
+              "RelativeToolTip": "BookStore.Presentation\\application\\src\\components\\shared\\navbar\\Navbar.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-29T19:56:27.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "general.css",
+              "DocumentMoniker": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\general.css",
+              "RelativeDocumentMoniker": "BookStore.Presentation\\application\\src\\general.css",
+              "ToolTip": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\general.css",
+              "RelativeToolTip": "BookStore.Presentation\\application\\src\\general.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T19:34:03.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "webNavbar.tsx",
+              "DocumentMoniker": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\components\\shared\\navbar\\web\\webNavbar.tsx",
+              "RelativeDocumentMoniker": "BookStore.Presentation\\application\\src\\components\\shared\\navbar\\web\\webNavbar.tsx",
+              "ToolTip": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\components\\shared\\navbar\\web\\webNavbar.tsx",
+              "RelativeToolTip": "BookStore.Presentation\\application\\src\\components\\shared\\navbar\\web\\webNavbar.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-29T19:32:05.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.tsx",
+              "DocumentMoniker": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\App.tsx",
+              "RelativeDocumentMoniker": "BookStore.Presentation\\application\\src\\App.tsx",
+              "ToolTip": "D:\\Project\\Github Sample Repository\\Bookstore\\BookStore\\BookStore.Presentation\\application\\src\\App.tsx",
+              "RelativeToolTip": "BookStore.Presentation\\application\\src\\App.tsx",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-22T16:35:02.922Z",
+              "EditorCaption": ""
             }
           ]
         }

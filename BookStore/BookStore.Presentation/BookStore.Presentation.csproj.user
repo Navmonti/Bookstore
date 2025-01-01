@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <None Update="application\src\components\shared\navbar\Navbar.tsx">
+      <SubType>Code</SubType>
+    </None>
     <None Update="application\src\services\IBookService.ts">
       <SubType>Code</SubType>
     </None>
